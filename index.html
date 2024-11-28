@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>10-sinf uchun</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+    <h1>Savol va Javob o'yiniga hush kelibsz</h1>
+
+    <!-- Raqamlarni tanlash uchun variantlar -->
+    <div id="number-selection">
+      <h2>Savollar soni 50 ta:</h2>
+      <select style="border-radius: 15px;" id="numberSelect">
+        <option value="">Savollar</option>
+      </select>
+    </div>
+
+    <!-- Savol va variantlar -->
+    <div id="question-container">
+      <h2>Savol:</h2>
+      <p id="question">Savolni tanlang.</p>
+      <div id="options">
+        <!-- Variantlar JS yordamida qo'shiladi -->
+      </div>
+      <p id="result"></p>
+    </div>
+
+    <button id="resetButton">Tanash</button>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

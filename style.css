@@ -1,0 +1,112 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #game-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  select, input, button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #question-container {
+    display: none;
+  }
+   */
+   body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://cdn.xabardor.uz/media/photo/2022/11/28/news_photo-20221214-152245.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #game-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  select, button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+   border-radius: 15px;
+   width: 100px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #question-container {
+    display: none;
+  }
+  
+  #options button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #options button:hover {
+    background-color: #0f13ee;
+  }
+  
+  #options button.correct {
+    background-color: rgb(255, 208, 0);
+    color: rgb(0, 0, 0);
+  }
+  
+  #options button.incorrect {
+    background-color: #f44336;
+    color: white;
+  }
+  input{
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
